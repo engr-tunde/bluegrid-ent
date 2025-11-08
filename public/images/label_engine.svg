@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="230" height="80" viewBox="0 0 230 80">
+	<defs>
+		<style>
+			.a{fill:none;}
+			.c{fill:url(#labelengine-a);}
+			.d{fill:url(#labelengine-b);}
+			.e{fill:url(#labelengine-c);}
+			.f{fill:url(#labelengine-d);}
+			.g{fill:url(#labelengine-e);}
+			.h{fill:url(#labelengine-f);}
+			.i{fill:url(#labelengine-g);}
+			.j{fill:url(#labelengine-h);}
+			.k{fill:url(#labelengine-i);}
+			.l{fill:url(#labelengine-j);}
+			.m{fill:url(#labelengine-k);}
+		</style>
+		<linearGradient id="labelengine-a" x1="-2.381" y1="0.5" x2="16.571" y2="0.5" gradientUnits="objectBoundingBox">
+			<stop offset="0" stop-color="#3509a4" />
+			<stop offset="0.56" stop-color="#4a80bf" />
+			<stop offset="1" stop-color="#5ad7d3" />
+		</linearGradient>
+		<linearGradient id="labelengine-b" x1="-2.325" y1="0.5" x2="10.368" y2="0.5" xlink:href="#labelengine-a" />
+		<linearGradient id="labelengine-c" x1="-4.208" y1="0.497" x2="11.21" y2="0.497" xlink:href="#labelengine-a" />
+		<linearGradient id="labelengine-d" x1="-6.401" y1="0.499" x2="11.554" y2="0.499" xlink:href="#labelengine-a" />
+		<linearGradient id="labelengine-e" x1="-8.089" y1="0.5" x2="10.732" y2="0.5" xlink:href="#labelengine-a" />
+		<linearGradient id="labelengine-f" x1="-10.079" y1="0.499" x2="9.697" y2="0.499" xlink:href="#labelengine-a" />
+		<linearGradient id="labelengine-g" x1="-9.493" y1="0.499" x2="6.947" y2="0.499" xlink:href="#labelengine-a" />
+		<linearGradient id="labelengine-h" x1="-11.012" y1="0.5" x2="5.629" y2="0.5" xlink:href="#labelengine-a" />
+		<linearGradient id="labelengine-i" x1="-78.111" y1="0.499" x2="26.854" y2="0.499" xlink:href="#labelengine-a" />
+		<linearGradient id="labelengine-j" x1="-12.807" y1="0.499" x2="3.634" y2="0.499" xlink:href="#labelengine-a" />
+		<linearGradient id="labelengine-k" x1="-17.115" y1="0.499" x2="2.661" y2="0.499" xlink:href="#labelengine-a" />
+	</defs>
+	<g transform="translate(-585 -576)">
+		<rect class="a" width="230" height="80" transform="translate(585 576)" />
+		<g class="b" transform="translate(617 600)">
+			<g transform="translate(82.961 16)">
+				<g transform="translate(-82.961 -16)">
+					<g transform="translate(0 0.154)">
+						<path class="c" d="M11.077,31.761H0V.3H4.385V27.608h6.692Z" transform="translate(0 -0.223)" />
+						<path class="d" d="M26.777,25.585H21.162l-1.077,6.154H15.7L21.7.2h4.615l5.923,31.538H27.777ZM21.7,21.815h4.538L24.008,7.969Z" transform="translate(-3.623 -0.2)" />
+						<path class="e" d="M40.2.3h6.462c4.077,0,6.923,2.077,6.923,6.154v4.692c0,2.538-.846,3.923-2.385,4.615,1.615.692,2.615,1.923,2.615,4.769v5.385c0,4.077-2.846,6-7,6H40.2Zm6.462,13.769c1.462,0,2.615-.385,2.615-2.692V7.223c0-2.308-1.077-2.769-2.846-2.769H44.585v9.615Zm.077,13.615c1.538,0,2.769-.385,2.769-2.692V20.069c0-2.154-1.154-2.615-2.615-2.615H44.585V27.608Z" transform="translate(-9.277 -0.223)" />
+						<path class="f" d="M74.692,4.454H67.308v9.385h5.538v3.846H67.308v9.923h7.385v4.231H63V.3H74.692Z" transform="translate(-14.539 -0.223)" />
+						<path class="g" d="M94.154,31.761H83V.3h4.385V27.608h6.692Z" transform="translate(-19.154 -0.223)" />
+					</g>
+					<g transform="translate(80.615)">
+						<path class="h" d="M106.8,29.838h8.615v2H104.8V.3h10.615V2.223H106.8V14.838h6.154v1.846H106.8Z" transform="translate(-104.8 -0.069)" />
+						<path class="i" d="M134.3,31.761,125.3,6.3V31.761h-2V.3h1.769l9,25.769V.3h2V31.838Z" transform="translate(-109.069 -0.069)" />
+						<path class="j" d="M148.3,25.461a4.314,4.314,0,1,0,8.615,0v-6h-4.462V17.615h6.462v7.846c0,3.923-2.615,6.538-6.308,6.538a6.162,6.162,0,0,1-6.308-6.538V6.615C146.3,2.692,148.915,0,152.608,0s6.308,2.692,6.308,6.615h-2c0-2.846-1.846-4.615-4.308-4.615A4.183,4.183,0,0,0,148.3,6.538Z" transform="translate(-114.377)" />
+						<path class="k" d="M170.8.3V31.838h-2V.3Z" transform="translate(-119.569 -0.069)" />
+						<path class="l" d="M189.223,31.761,180.3,6.3V31.761h-2V.3h1.769l9,25.769V.3h2V31.838Z" transform="translate(-121.762 -0.069)" />
+						<path class="m" d="M203.9,29.838h8.615v2H201.9V.3h10.615V2.223H203.9V14.838h6.154v1.846H203.9Z" transform="translate(-127.208 -0.069)" />
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
