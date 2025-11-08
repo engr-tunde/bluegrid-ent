@@ -15,7 +15,9 @@ const Navbar = () => {
   return (
     <div className="w-screen fixed z-50 bg-[#121212] py-5 px-2 lg:px-10 flex justify-between items-center">
       <div className="flex items-center w-full justify-between lg:w-[10%]">
-        <h1 className="text-3xl font-extrabold text-white">ML</h1>
+        <Link to="/" className="w-[50px] h-[50px]">
+          <img src="/public/images/logo-white.png" alt="" className="w-full" />
+        </Link>
         <div className="cursor-pointer transform transition-all duration-300 ease-in-out">
           {open ? (
             <RiCloseLine
@@ -32,10 +34,10 @@ const Navbar = () => {
       </div>
 
       <div className="hidden lg:flex items-center gap-10">
-        <h3 className="text-white text-[18px] hover:text-[#e33874] transition ease-in-out duration-500">
+        <h3 className="text-white text-[18px] hover:text-[#008ad3] transition ease-in-out duration-500">
           WORK WITH US
         </h3>
-        <button className="text-[#e33874] hover:text-white px-8 py-2 border-[1px] border-[#e33874] hover:border-white transition ease-in-out duration-500 rounded-full mr-4">
+        <button className="text-[#008ad3] hover:text-white px-8 py-2 border-[1px] border-[#008ad3] hover:border-white transition ease-in-out duration-500 rounded-full mr-4">
           CLIENT LOGIN
         </button>
       </div>
@@ -56,6 +58,7 @@ const Navbar = () => {
                     to={item?.url}
                     key={itemIndex}
                     className="text-white font-bold hover:shadow-gray-50 shadow-lg hover:text-[#e33874] transition ease-in-out duration-500"
+                    onClick={handleOpenClose}
                   >
                     {item?.name}
                   </Link>

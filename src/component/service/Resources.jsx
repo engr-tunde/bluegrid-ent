@@ -8,7 +8,7 @@ const Resources = () => {
         background: "linear-gradient(to bottom, #1F1500 0%, #1F1629 100%)",
       }}
     >
-      <div className="w-[15%] lg:w-[8%] flex items-center justify-center [writing-mode:vertical-lr] transform rotate-180 text-2xl tracking-wider font-bold border-l border-r border-gray-700">
+      <div className="w-[15%] lg:w-[8%] flex items-center justify-center [writing-mode:vertical-lr] transform rotate-180 text-2xl tracking-wider font-extrabold border-l border-r border-gray-700">
         OUR SERVICES
       </div>
 

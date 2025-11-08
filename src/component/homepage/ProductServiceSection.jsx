@@ -5,7 +5,7 @@ import { productServiceImage } from "../../data/homePage";
 const ProductServiceSection = () => {
   return (
     <div className="w-full flex text-white">
-      <div className="w-[15%] lg:w-[8%] flex items-center justify-center [writing-mode:vertical-lr] transform rotate-180 text-2xl tracking-wider font-bold border-l border-r border-gray-700">
+      <div className="w-[15%] lg:w-[8%] flex items-center justify-center [writing-mode:vertical-lr] transform rotate-180 text-2xl tracking-wider font-extrabold border-l border-r border-gray-700">
         PRODUCTS & SERVICES
       </div>
       <div className="w-[85%] pt-20 lg:pt-60 flex flex-col lg:flex-row">
@@ -32,9 +32,9 @@ const ProductServiceSection = () => {
             {/* mobile view */}
             <Link
               to="/"
-              className="lg:hidden lg:w-[15%] flex lg:items-center lg:mx-auto text-[#e33874] font-semibold opacity-90 hover:opacity-100"
+              className="lg:hidden lg:w-[15%] flex lg:items-center lg:mx-auto text-[#008ad3] font-semibold opacity-90 hover:opacity-100"
             >
-              <span className="read-more-link text-[20px] text-[#e33874] font-semibold opacity-90 hover:opacity-100">
+              <span className="read-more-link text-[20px] text-[#008ad3] font-semibold opacity-90 hover:opacity-100">
                 OUR SERVICES
               </span>
             </Link>
@@ -110,9 +110,9 @@ const ProductServiceSection = () => {
 
         <Link
           to="/"
-          className="hidden lg:w-[15%] lg:flex lg:items-center lg:mx-auto text-[#e33874] font-semibold opacity-90 hover:opacity-100"
+          className="hidden lg:w-[15%] lg:flex lg:items-center lg:mx-auto text-[#008ad3] font-semibold opacity-90 hover:opacity-100"
         >
-          <span className="read-more-link text-[20px] text-[#e33874] font-semibold opacity-90 hover:opacity-100">
+          <span className="read-more-link text-[20px] text-[#008ad3] font-semibold opacity-90 hover:opacity-100">
             OUR SERVICES
           </span>
         </Link>

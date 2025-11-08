@@ -20,21 +20,21 @@ const PowerPlayers = () => {
       <div className="hidden lg:flex flex-col lg:flex-row gap-10 lg:gap-8">
         <div className="flex flex-col gap-3 px-4">
           <img src="/public/images/kidjo.jpg" alt="" />
-          <Link to="/" className="uppercase font-bold hover:text-[#e33874]">
+          <Link to="/" className="uppercase font-bold hover:text-[#008ad3]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit
           </Link>
           <span className="font-bold">SEP 16,2025</span>
         </div>
         <div className="flex flex-col gap-3 px-4">
           <img src="/public/images/akon.jpg" alt="" />
-          <Link to="/" className="uppercase font-bold  hover:text-[#e33874]">
+          <Link to="/" className="uppercase font-bold  hover:text-[#008ad3]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit
           </Link>
           <span className="font-bold">SEP 16,2025</span>
         </div>
         <div className="flex flex-col gap-3 px-4">
           <img src="/public/images/fela.jpg" alt="" />
-          <Link to="/" className="uppercase font-bold  hover:text-[#e33874]">
+          <Link to="/" className="uppercase font-bold  hover:text-[#008ad3]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit
           </Link>
           <span className="font-bold">SEP 16,2025</span>
@@ -54,7 +54,7 @@ const PowerPlayers = () => {
           <div>
             <Link
               to="/"
-              className="uppercase font-bold text-lg hover:text-[#e33874]"
+              className="uppercase font-bold text-lg hover:text-[#008ad3]"
             >
               {aboutUsSliderImages[current].title}
             </Link>
@@ -70,8 +70,8 @@ const PowerPlayers = () => {
                 onClick={() => setCurrent(idx)}
                 aria-label={`Go to slide ${idx + 1}`}
                 className={`w-4 h-4 rounded-full border-[2px] border-gray-400 ${
-                  current === idx ? "bg-[#e33874]" : ""
-                } transition-all cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#e33874]`}
+                  current === idx ? "bg-[#008ad3]" : ""
+                } transition-all cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#008ad3]`}
               ></button>
             ))}
           </div>

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap");
 @import "tailwindcss";
 
 .background-image {
@@ -18,7 +19,7 @@
   height: 2px;
   bottom: -2px;
   left: 0;
-  background-color: #e33874;
+  background-color: #008ad3;
   transition: width 0.3s ease-in-out;
 }
 
@@ -27,8 +28,14 @@
 }
 
 .primary-btn {
-  background-color: #ff3d81;
+  background-color: #008ad3;
   border-radius: 30px;
   padding: 10px 30px;
   font-weight: bold;
-} 
+}
+
+
+/* Make Syne the default site font */
+body {
+  font-family: "Syne", sans-serif;
+}

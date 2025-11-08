@@ -16,7 +16,7 @@ const ContactUsPage = () => {
   return (
     <div className="w-full pt-20 lg:pl-20 text-white">
       <div className="flex flex-row">
-        <h1 className="w-[15%] lg:w-[8%] flex items-center justify-center [writing-mode:vertical-lr] transform rotate-180 text-2xl tracking-wider font-bold border-l border-r border-gray-700">
+        <h1 className="w-[15%] lg:w-[8%] flex items-center justify-center [writing-mode:vertical-lr] transform rotate-180 text-2xl tracking-wider font-extrabold border-l border-r border-gray-700">
           WORK WITH US
         </h1>
 
@@ -66,7 +66,7 @@ const ContactUsPage = () => {
                   <div className="col-span-1 w-full lg:w-[90%]">
                     <label className=" text-sm">
                       Artist/Band/Company Name
-                      <span className="text-[#e33874]">*</span>
+                      <span className="text-[#008ad3]">*</span>
                     </label>
                     <AppInputField
                       name="artist"
@@ -76,7 +76,7 @@ const ContactUsPage = () => {
                   </div>
                   <div className="col-span-1 lg:w-[90%]">
                     <label className=" text-sm">
-                      Email <span className="text-[#e33874]">*</span>
+                      Email <span className="text-[#008ad3]">*</span>
                     </label>
                     <AppInputField
                       name="email"
@@ -86,7 +86,7 @@ const ContactUsPage = () => {
                   </div>
                   <div className="col-span-1 lg:w-[90%]">
                     <label className=" text-sm">
-                      Legal First Name <span className="text-[#e33874]">*</span>
+                      Legal First Name <span className="text-[#008ad3]">*</span>
                     </label>
                     <AppInputField
                       name="legal_first_name"
@@ -96,7 +96,7 @@ const ContactUsPage = () => {
                   </div>
                   <div className="col-span-1 lg:w-[90%]">
                     <label className=" text-sm">
-                      Legal Last Name <span className="text-[#e33874]">*</span>
+                      Legal Last Name <span className="text-[#008ad3]">*</span>
                     </label>
                     <AppInputField
                       name="legal_last_name"
@@ -106,7 +106,7 @@ const ContactUsPage = () => {
                   </div>
                   <div className="col-span-1 lg:w-[90%]">
                     <label className=" text-sm">
-                      Date of Birth <span className="text-[#e33874]">*</span>
+                      Date of Birth <span className="text-[#008ad3]">*</span>
                     </label>
                     <AppInputField
                       name="date_of_birth"
@@ -190,7 +190,7 @@ const ContactUsPage = () => {
 
                 <div className="flex justify-between">
                   <div>
-                    <span className="text-[#e33874]">*</span>- required
+                    <span className="text-[#008ad3]">*</span>- required
                   </div>
 
                   <AppSubmitButton title="Submit" />

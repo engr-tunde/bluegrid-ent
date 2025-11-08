@@ -41,7 +41,7 @@ const TrustedByArtist = () => {
           ))}
         </div>
         <div className="w-[30%] flex">
-          <div className="w-[20%] flex items-center justify-center [writing-mode:vertical-lr] transform rotate-180 text-2xl tracking-wider font-bold">
+          <div className="w-[20%] flex items-center justify-center [writing-mode:vertical-lr] transform rotate-180 text-2xl tracking-wider font-extrabold">
             TRUSTED BY ARTISTS
           </div>
           <div className="w-[80%] flex flex-col gap-6 px-2">
@@ -120,8 +120,8 @@ const TrustedByArtist = () => {
                 onClick={() => setCurrent(idx)}
                 aria-label={`Go to slide ${idx + 1}`}
                 className={`w-4 h-4 rounded-full border-[2px] border-gray-400 ${
-                  current === idx ? "bg-[#e33874]" : ""
-                } transition-all cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#e33874]`}
+                  current === idx ? "bg-[#008ad3]" : ""
+                } transition-all cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#008ad3]`}
               ></button>
             ))}
           </div>

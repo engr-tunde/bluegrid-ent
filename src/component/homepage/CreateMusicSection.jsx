@@ -15,19 +15,27 @@ const CreateMusicSection = () => {
 
   return (
     <div className="w-full mt-20 text-[#ffffff] flex">
-      <h1 className="w-[15%] lg:w-[8%] lg:h-[1250px] flex items-center justify-center [writing-mode:vertical-lr] transform rotate-180 text-2xl tracking-wider font-bold border-l border-r border-gray-700">
+      <h1 className="font-Syne w-[15%] lg:w-[8%] flex items-center justify-center [writing-mode:vertical-lr] transform rotate-180 text-2xl tracking-wider font-extrabold border-l border-r border-gray-700">
         WE ARE CREATE MUSIC
       </h1>
       <div className="w-[85%] lg:w-[92%] flex flex-col lg:flex-row">
         {/* Slider Section */}
-        <div className="lg:w-[50%] mx-2 lg:px-0 mt-5 h-[600px] flex flex-col lg:flex-row relative">
-          {/* Left: Image Slider (auto-swiping) */}
-          <div className="w-[100%] lg:w-[40%] flex flex-col px-2 items-center justify-center h-full">
+        <div className="lg:w-[50%] mx-2 lg:px-0 mt-5 flex flex-col lg:flex-row relative">
+          <div className="w-[100%] flex flex-col gap-3 px-2">
+            <h2 className="mt-4 lg:mt-0 text-2xl lg:text-5xl lg:leading-13 font-bold mb-2">
+              {createMusicSectionData[current]?.title}
+            </h2>
+            <p className="text-sm mb-4">
+              {createMusicSectionData[current]?.description}
+            </p>
+            
+
             <img
               src={`/images/${image[current]}`}
               alt={createMusicSectionData[current]?.title || "slider"}
-              className="h-full w-full object-cover rounded-lg shadow-lg"
+              className="w-full object-cover rounded-lg shadow-lg"
             />
+
             <div className="flex justify-center items-center gap-2 mt-4">
               {image.map((_, idx) => (
                 <button
@@ -36,27 +44,19 @@ const CreateMusicSection = () => {
                   onClick={() => setCurrent(idx)}
                   aria-label={`Go to slide ${idx + 1}`}
                   className={`w-6 h-1 rounded-full ${
-                    current === idx ? "bg-[#e33874]" : "bg-gray-400"
-                  } transition-all cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#e33874]`}
+                    current === idx ? "bg-[#008ad3]" : "bg-gray-400"
+                  } transition-all cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[008ad3]`}
                 ></button>
               ))}
             </div>
-          </div>
-          {/* Right: Content Slider */}
-          <div className="w-[100%] lg:w-[60%] flex flex-col gap-3 lg:gap-5 px-2 h-full">
-            <h2 className="mt-4 lg:mt-0 text-2xl lg:text-5xl lg:leading-13 font-bold mb-2">
-              {createMusicSectionData[current]?.title}
-            </h2>
-            <p className="text-sm mb-4">
-              {createMusicSectionData[current]?.description}
-            </p>
-            <div>
+
+            <div className="mt-10">
               {createMusicSectionData[current]?.Children?.map(
                 (child, childIndex) => (
                   <Link
                     key={childIndex}
                     to={child.url}
-                    className="text-[#e33874] read-more-link"
+                    className="text-[#008ad3] read-more-link"
                   >
                     {child?.content}
                   </Link>
@@ -68,11 +68,6 @@ const CreateMusicSection = () => {
 
         {/* right side: original static content restored */}
         <div className="w-[100%] lg:w-[50%] flex flex-col gap-5 pt-5 px-2 lg:pl-2">
-          <img
-            src="/images/wiz-temz.jpg"
-            alt=""
-            className="bg-center w-full bg-cover bg-no-repeat h-[300px] lg:h-[600px]"
-          />
           <div className="flex flex-col gap-6 lg:gap-0 lg:flex-row w-full">
             <div className="flex flex-col lg:w-[55%] gap-4 lg:gap-3 px-2">
               <h3 className="font-semibold text-[20px] lg:text-[24px]">
@@ -97,9 +92,9 @@ const CreateMusicSection = () => {
             </div>
             <Link
               to="/"
-              className="flex lg:items-center lg:mx-auto text-[#e33874] font-semibold opacity-90 hover:opacity-100"
+              className="flex lg:items-center lg:mx-auto text-[#008ad3] font-semibold opacity-90 hover:opacity-100"
             >
-              <span className="read-more-link text-[20px] text-[#e33874] font-semibold opacity-90 hover:opacity-100">
+              <span className="read-more-link text-[20px] text-[#008ad3] font-semibold opacity-90 hover:opacity-100">
                 READ MORE
               </span>
             </Link>

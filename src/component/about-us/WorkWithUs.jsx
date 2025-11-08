@@ -12,7 +12,7 @@ const WorkWithUs = () => {
             <span className='text-lg'>With offices spanning four continents, Create Music Group is constantly looking for ways to increase reach, expand into new markets, and deliver our clients opportunities from around the globe.</span>
             <span className='text-lg'>We are home to some of the top brands in music, media and marketing including Flighthouse Media, Label Engine and Broke Records with artists like Marshmello, deadmau5, Tyrese, Keri Hilson, Durand Bernarr, bbno$, Sevdaliza, Deebaby and more. We are at the forefront of the independent music sector, shaping the future of the music industry.</span>
 
-            <span className='read-more-link uppercase font-bold tracking-widest text-[#e33874]'>See Our Current Opportunities</span>
+            <span className='read-more-link uppercase font-bold tracking-widest text-[#008ad3]'>See Our Current Opportunities</span>
         </div>
 
         <div className='w-[20%]'></div>

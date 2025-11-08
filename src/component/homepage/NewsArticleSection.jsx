@@ -6,7 +6,7 @@ const NewsArticleSection = () => {
   return (
     <div className="w-full flex text-white">
       <div className="w-[15%] lg:w-[8%] border-l border-r border-gray-700"></div>
-      <div className="lg:w-[6%] hidden lg:flex items-center justify-center [writing-mode:vertical-lr] transform rotate-180 text-2xl tracking-wider font-bold">
+      <div className="lg:w-[6%] hidden lg:flex items-center justify-center [writing-mode:vertical-lr] transform rotate-180 text-2xl tracking-wider font-extrabold">
         NEWS & ARTICLES
       </div>
       <div className="flex flex-col lg:flex-row w-[86%]">
@@ -21,20 +21,20 @@ const NewsArticleSection = () => {
           <div className="flex flex-col">
             <Link
               to="/"
-              className="font-bold text-lg lg:text-3xl hover:text-[#e33874]"
+              className="font-bold text-lg lg:text-3xl hover:text-[#008ad3]"
             >
               Indie Electronic Label Monstercat Acquired by Create Music Group
             </Link>
             <span>May 6, 2025</span>
           </div>
           <div className="flex flex-col col-span-2 lg:ml-30">
-            <Link to="/" className="font-bold text-lg hover:text-[#e33874] ">
+            <Link to="/" className="font-bold text-lg hover:text-[#008ad3] ">
               JONATHAN STRAUSS: THE HITS INTERVIEW
             </Link>
             <span className="">Mar 7, 2025</span>
           </div>
           <div className="flex flex-col col-span-1">
-            <Link to="/" className="font-bold text-lg hover:text-[#e33874]">
+            <Link to="/" className="font-bold text-lg hover:text-[#008ad3]">
               DEADMAU5 CATALOG ACQUIRED BY CREATE MUSIC GROUP IN DEAL VALUED AT
               $55 MILLION
             </Link>
@@ -44,7 +44,7 @@ const NewsArticleSection = () => {
         <div className="w-full lg:w-[25%] flex items-end pl-4 lg:pl-0 mt-4 lg:mt-0">
           <Link
             to="/"
-            className="read-more-link text-[20px] text-[#e33874] font-semibold opacity-90 hover:opacity-100 mb-20"
+            className="read-more-link text-[20px] text-[#008ad3] font-semibold opacity-90 hover:opacity-100 mb-20"
           >
             MORE ARTICLES
           </Link>
