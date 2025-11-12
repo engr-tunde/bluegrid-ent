@@ -30,7 +30,7 @@ const CreateMusicGroup = () => {
       </div>
       <div className="w-[100%] lg:w-[50%] flex flex-col items-center gap-4 px-4 pt-6">
         <img
-          src="/images/ayra-star.jpg"
+          src="/public/images/nicki-minaj1.jpg"
           alt="create-music-group"
           className="w-full object-cover"
         />

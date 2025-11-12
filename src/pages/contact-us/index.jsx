@@ -22,8 +22,8 @@ const ContactUsPage = () => {
 
         <div className="flex w-[100%] lg:w-[92%]">
           <div className="hidden w-[20%] h-[1500px] lg:flex flex-col gap-10 px-3 pt-4">
-            <img src="/public/images/burnaboy.jpg" alt="" className="h-full" />
-            <img src="/public/images/burnaboy.jpg" alt="" className="h-full" />
+            <img src="/images/adekunle.jpg" alt="" className="h-full" />
+            <img src="/images/fireboy.jpg" alt="" className="h-full" />
           </div>
 
           <div className="w-[100%] lg:w-[60%] px-4 pt-10 pb-10">

@@ -128,10 +128,17 @@ export const trustedByArtistImage = [
 export const trustedByArtistImageTwo = ["tiwa.jpg", "akon.jpg", "jay-z.jpg"];
 
 export const trustedByArtistImageThree = [
-  "fela.jpg",
+  "wizkid.jpg",
   "wiz-temz.jpg",
   "kidjo.jpg",
 ];
+
+export const trustedByArtistImageFour = [
+  "2face.jpg",
+  "asake.jpg",
+  "rema.jpg",
+];
+
 
 export const totalTrustedArtistImage = [
   "davido.jpg",
@@ -139,7 +146,7 @@ export const totalTrustedArtistImage = [
   "olamide.jpg",
   "tiwa.jpg",
   "akon.jpg",
-  "jay-z.jpg",
+  "wizkid.jpg",
   "fela.jpg",
   "wiz-temz.jpg",
   "kidjo.jpg",

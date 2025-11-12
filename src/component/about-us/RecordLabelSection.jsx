@@ -19,7 +19,7 @@ const RecordLabelSection = () => {
             </div>
         </div>
         <div className='w-[100%] lg:w-[50%] lg:h-[600px] px-5'>
-            <img src="/public/images/ayra-star.jpg" alt="" className='w-full h-full'/>
+            <img src="/images/cardi-b.jpg" alt="" className='w-full h-full'/>
         </div>
     </div>
   )

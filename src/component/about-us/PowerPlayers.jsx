@@ -19,21 +19,21 @@ const PowerPlayers = () => {
 
       <div className="hidden lg:flex flex-col lg:flex-row gap-10 lg:gap-8">
         <div className="flex flex-col gap-3 px-4">
-          <img src="/public/images/kidjo.jpg" alt="" />
+          <img src="/images/drake.jpg" alt="" />
           <Link to="/" className="uppercase font-bold hover:text-[#008ad3]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit
           </Link>
           <span className="font-bold">SEP 16,2025</span>
         </div>
         <div className="flex flex-col gap-3 px-4">
-          <img src="/public/images/akon.jpg" alt="" />
+          <img src="/images/lamar.jpg" alt="" />
           <Link to="/" className="uppercase font-bold  hover:text-[#008ad3]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit
           </Link>
           <span className="font-bold">SEP 16,2025</span>
         </div>
         <div className="flex flex-col gap-3 px-4">
-          <img src="/public/images/fela.jpg" alt="" />
+          <img src="/public/images/ed-sheeran.jpg" alt="" />
           <Link to="/" className="uppercase font-bold  hover:text-[#008ad3]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit
           </Link>

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import {
   totalTrustedArtistImage,
   trustedByArtistImage,
+  trustedByArtistImageFour,
   trustedByArtistImageThree,
   trustedByArtistImageTwo,
 } from "../../data/homePage";
@@ -80,7 +81,7 @@ const TrustedByArtist = () => {
           ))}
         </div>
         <div className="w-[20%] flex flex-col gap-3 px-2">
-          {trustedByArtistImage.map((img, imgIndex) => (
+          {trustedByArtistImageFour.map((img, imgIndex) => (
             <div
               key={imgIndex}
               className={`w-full ${

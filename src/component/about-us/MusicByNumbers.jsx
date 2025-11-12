@@ -3,8 +3,8 @@ import React from 'react'
 const MusicByNumbers = () => {
   return (
     <div className='pt-20 lg:pt-60 flex w-full flex-col lg:flex-row gap-6 lg:gap-0'>
-        <div className='w-[100%] lg:w-[50%] lg:h-[600px] px-5'>
-            <img src="/public/images/ayra-star.jpg" alt="" className='w-full h-full'/>
+        <div className='w-[100%] lg:w-[50%] lg:h-[800px] px-5'>
+            <img src="/images/lil-wayne.avif" alt="" className='w-full h-full'/>
         </div>
 
         <div className='w-[100%] lg:w-[50%] flex flex-col px-5 gap-10'>

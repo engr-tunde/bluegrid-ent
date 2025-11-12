@@ -4,7 +4,7 @@ const WorkWithUs = () => {
   return (
     <div className='w-full flex flex-col lg:flex-row pt-20 lg:pt-60 gap-8 lg:gap-0'>
         <div className='w-[100%] lg:w-[50%] lg:h-[400px] px-5'>
-            <img src="/public/images/work-with-us.jpg" alt="" className='w-full h-full'/>
+            <img src="/public/images/office.jpg" alt="" className='w-full h-full'/>
         </div>
 
         <div className='w-[100%] lg:w-[30%] flex flex-col px-5 gap-10'>
