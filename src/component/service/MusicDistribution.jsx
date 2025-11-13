@@ -13,10 +13,12 @@ const MusicDistribution = () => {
             }`}
           >
             <div className="w-[80px] hieght-[60px]">
-              <img src={`/public/images/${item?.image}`} alt="" />
+              <img src={`/images/${item?.image}`} alt="" />
             </div>
             <div className="lg:max-w-[40%] px-4 lg:px-0 text-center lg:text-left">
-              <h1 className="text-4xl uppercase font-bold mb-4">{item?.title}</h1>
+              <h1 className="text-4xl uppercase font-bold mb-4">
+                {item?.title}
+              </h1>
               <span className="text-[20px]">{item?.description}</span>
             </div>
           </div>

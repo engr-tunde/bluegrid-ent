@@ -13,10 +13,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-screen fixed z-50 bg-primary-deep py-3 px-2 lg:px-10 flex justify-between items-center shadow-lg shadow-black/35">
+    <div className="w-screen fixed z-50 bg-primary-deep py-3 px-2 lg:px-10 flex justify-between items-center shadow-xl shadow-black/65">
       <div className="flex items-center w-full justify-between lg:w-[10%]">
         <Link to="/" className="w-[50px] h-[50px]">
-          <img src="/public/images/logo-white.png" alt="" className="w-full" />
+          <img src="/images/logo-white.png" alt="" className="w-full" />
         </Link>
         <div className="cursor-pointer transform transition-all duration-300 ease-in-out">
           {open ? (

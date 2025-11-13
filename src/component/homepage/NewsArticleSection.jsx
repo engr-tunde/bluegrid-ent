@@ -13,7 +13,7 @@ const NewsArticleSection = () => {
         <div className="w-full lg:w-[75%] pt-20 lg:pt-60 grid grid-cols-1 lg:grid-cols-3 gap-y-12 lg:gap-x-5 px-4">
           <div className="col-span-2">
             <img
-              src="/public/images/fela.jpg"
+              src="/images/fela.jpg"
               alt=""
               className="shadow-md shadow-white rounded-lg"
             />

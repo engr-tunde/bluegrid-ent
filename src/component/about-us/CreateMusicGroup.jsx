@@ -8,8 +8,10 @@ const CreateMusicGroup = () => {
         <div className="font-bold text-4xl">WE ARE</div>
         <div className="text-5xl lg:text-7xl font-bold">CREATE MUSIC GROUP</div>
         <div className="flex flex-col gap-2 text-lg">
-          <span className="font-bold uppercase">Empowering artists and labels</span>
-          <span className="text-[16px]"> 
+          <span className="font-bold uppercase">
+            Empowering artists and labels
+          </span>
+          <span className="text-[16px]">
             We’ve been in the music industry for years and have some of the
             world’s biggest artists and labels under our umbrella. Music is our
             passion, and we provide dedicated teams to help you with your career
@@ -18,7 +20,9 @@ const CreateMusicGroup = () => {
           </span>
         </div>
         <div className="flex flex-col gap-2 text-lg">
-          <span className="font-bold uppercase">Data-driven solutions designed for the music industry.</span>
+          <span className="font-bold uppercase">
+            Data-driven solutions designed for the music industry.
+          </span>
           <span className="text-[16px]">
             Our innovation and technology department has provided worldwide
             exclusives like daily earnings and estimates via our dedicated
@@ -30,7 +34,7 @@ const CreateMusicGroup = () => {
       </div>
       <div className="w-[100%] lg:w-[50%] flex flex-col items-center gap-4 px-4 pt-6">
         <img
-          src="/public/images/nicki-minaj1.jpg"
+          src="/images/nicki-minaj1.jpg"
           alt="create-music-group"
           className="w-full object-cover"
         />

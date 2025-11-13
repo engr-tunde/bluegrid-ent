@@ -16,30 +16,32 @@ const CreateMusicSection = () => {
   return (
     // <div className="bg-primary-light w-full mt-20 lg:mt-16 text-[#ffffff] flex">
     <div
-      className="bg-primary-light w-full mt-20 lg:mt-16 text-[#ffffff] flex pb-20"
+      className="bg-primary-light w-full mt-14 lg:mt-16 text-[#ffffff] flex pb-20"
       style={{
         backgroundImage:
           "radial-gradient(#001CA0 10%, #00167a 15%, #000b43 70%)",
       }}
     >
-      <h1 className="font-Syne w-[15%] lg:w-[8%] flex items-center justify-center [writing-mode:vertical-lr] transform rotate-180 text-2xl tracking-wider font-extrabold border-l border-r border-gray-700">
-        WE ARE CREATE MUSIC
+      <h1 className="font-Syne w-[15%] lg:w-[8%] flex items-center uppercase justify-center [writing-mode:vertical-lr] transform rotate-180 text-3xl tracking-wider font-extrabold border-l border-r border-gray-700">
+        BLUEGRID ENTERTAINMENT
       </h1>
       <div className="w-[85%] lg:w-[92%] flex flex-col lg:flex-row pt-20">
         {/* Slider Section */}
         <div className="lg:w-[50%] mx-2 lg:px-0 mt-5 flex flex-col lg:flex-row relative">
           <div className="w-[100%] flex flex-col gap-3 px-2">
-            <h2 className="mt-4 lg:mt-0 text-2xl lg:text-5xl lg:leading-13 font-bold mb-2 uppercase">
+            <h2 className="mt-4 lg:mt-0 text-2xl lg:text-4xl lg:leading-13 font-bold mb-2 uppercase">
               {createMusicSectionData[current]?.title}
             </h2>
             <p className="text-sm mb-4">
-              {createMusicSectionData[current]?.description}
+              {/* {createMusicSectionData[current]?.description} */}
+              Earn incredibly as music lovers around the globe listen to your
+              body of work from any where, any time
             </p>
 
             <img
               src={`/images/${image[current]}`}
               alt={createMusicSectionData[current]?.title || "slider"}
-              className="w-full object-cover rounded-lg shadow-lg"
+              className="w-full h-[500px] object-cover rounded-lg shadow-lg"
             />
 
             <div className="flex justify-center items-center gap-2 mt-4">

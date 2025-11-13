@@ -1,16 +1,10 @@
 import { Children } from "react";
 
-export const image = [
-  "slider-img-1.png",
-  "slider-img-2.jpg",
-  "slider-img-3.jpg",
-  "slider-img-4.jpg",
-  "slider-img-5.jpg",
-];
+export const image = ["music-3.jpg", "music-1.jpg", "music-2.jpg"];
 
 export const createMusicSectionData = [
   {
-    title: "Welcome to Bluegrid Entertainment Music Distribution Company",
+    title: "Bluegrid Entertainment Music Distribution Company",
     description:
       "Create Music Group is excited to announce the grand opening of our state-of-the-art recording studio.",
     Children: [
@@ -119,21 +113,40 @@ export const productServiceImage = [
   },
 ];
 
-export const trustedByArtistImage = [
+export const trustedByArtistImageOld = [
   "davido.jpg",
   "burnaboy.jpg",
   "olamide.jpg",
 ];
-
-export const trustedByArtistImageTwo = ["tiwa.jpg", "akon.jpg", "jay-z.jpg"];
-
-export const trustedByArtistImageThree = [
+export const trustedByArtistImageTwoOld = ["tiwa.jpg", "akon.jpg", "jay-z.jpg"];
+export const trustedByArtistImageThreeOld = [
   "wizkid.jpg",
   "wiz-temz.jpg",
   "kidjo.jpg",
 ];
 
-export const trustedByArtistImageFour = ["2face.jpg", "asake.jpg", "rema.jpg"];
+export const trustedByArtistImage = [
+  "fela-2.webp",
+  "lil-wayne-2.webp",
+  "jay-z-2.jpg",
+];
+export const trustedByArtistImageTwo = [
+  "drake-2.jpg",
+  "wizkid-2.jpeg",
+  "nicki-minaj-2.jpg",
+];
+
+export const trustedByArtistImageThree = [
+  "burna-2.webp",
+  "cardi-b-2.jpg",
+  "asake-2.webp",
+];
+
+export const trustedByArtistImageFour = [
+  "davido-2.webp",
+  "tems-2.jpg",
+  "rema-2.webp",
+];
 
 export const totalTrustedArtistImage = [
   "davido.jpg",

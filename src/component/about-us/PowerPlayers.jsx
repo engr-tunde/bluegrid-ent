@@ -15,7 +15,9 @@ const PowerPlayers = () => {
 
   return (
     <div className="w-full py-20 lg:py-60">
-      <h1 className="font-bold text-[26px] lg:text-5xl mb-8">WHAT OTHERS HAVE TO SAY</h1>
+      <h1 className="font-bold text-[26px] lg:text-5xl mb-8">
+        WHAT OTHERS HAVE TO SAY
+      </h1>
 
       <div className="hidden lg:flex flex-col lg:flex-row gap-10 lg:gap-8">
         <div className="flex flex-col gap-3 px-4">
@@ -33,7 +35,7 @@ const PowerPlayers = () => {
           <span className="font-bold">SEP 16,2025</span>
         </div>
         <div className="flex flex-col gap-3 px-4">
-          <img src="/public/images/ed-sheeran.jpg" alt="" />
+          <img src="/images/ed-sheeran.jpg" alt="" />
           <Link to="/" className="uppercase font-bold  hover:text-[#008ad3]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit
           </Link>

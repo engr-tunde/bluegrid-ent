@@ -42,8 +42,8 @@ const TrustedByArtist = () => {
           ))}
         </div>
         <div className="w-[30%] flex">
-          <div className="w-[20%] flex items-center justify-center [writing-mode:vertical-lr] transform rotate-180 text-2xl tracking-wider font-extrabold">
-            TRUSTED BY ARTISTS
+          <div className="w-[20%] flex items-center justify-center [writing-mode:vertical-lr] transform uppercase rotate-180 text-2xl tracking-wider font-extrabold">
+            Join The World Renowed Artists
           </div>
           <div className="w-[80%] flex flex-col gap-6 px-2">
             {trustedByArtistImageTwo.map((img, imgIndex) => (
