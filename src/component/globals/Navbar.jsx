@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-screen fixed z-50 bg-[#121212] py-5 px-2 lg:px-10 flex justify-between items-center">
+    <div className="w-screen fixed z-50 bg-primary-deep py-3 px-2 lg:px-10 flex justify-between items-center shadow-lg shadow-black/35">
       <div className="flex items-center w-full justify-between lg:w-[10%]">
         <Link to="/" className="w-[50px] h-[50px]">
           <img src="/public/images/logo-white.png" alt="" className="w-full" />
@@ -37,9 +37,9 @@ const Navbar = () => {
         <h3 className="text-white text-[18px] hover:text-[#008ad3] transition ease-in-out duration-500">
           WORK WITH US
         </h3>
-        <button className="text-[#008ad3] hover:text-white px-8 py-2 border-[1px] border-[#008ad3] hover:border-white transition ease-in-out duration-500 rounded-full mr-4">
-          CLIENT LOGIN
-        </button>
+        <Link className="bg-[#008ad3] hover:bg-[#005fd3] hover:text-white px-8 py-2 hover:border-white transition ease-in-out duration-500 rounded-full mr-4">
+          Client Login
+        </Link>
       </div>
 
       {open ? (

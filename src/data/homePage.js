@@ -10,7 +10,7 @@ export const image = [
 
 export const createMusicSectionData = [
   {
-    title: "CREATE MUSIC GROUP RECORDING STUDIO NOW OPEN",
+    title: "Welcome to Bluegrid Entertainment Music Distribution Company",
     description:
       "Create Music Group is excited to announce the grand opening of our state-of-the-art recording studio.",
     Children: [
@@ -46,7 +46,7 @@ export const createMusicSectionData = [
     ],
   },
   {
-    title: "CREATE MUSIC GROUP RECORDING STUDIO NOW OPEN",
+    title: "Bluegrid Entertainment Music Distribution Company",
     description:
       "Create Music Group is excited to announce the grand opening of our state-of-the-art recording studio.",
     Children: [
@@ -133,12 +133,7 @@ export const trustedByArtistImageThree = [
   "kidjo.jpg",
 ];
 
-export const trustedByArtistImageFour = [
-  "2face.jpg",
-  "asake.jpg",
-  "rema.jpg",
-];
-
+export const trustedByArtistImageFour = ["2face.jpg", "asake.jpg", "rema.jpg"];
 
 export const totalTrustedArtistImage = [
   "davido.jpg",
