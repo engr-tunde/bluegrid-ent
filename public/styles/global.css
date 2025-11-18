@@ -1,3 +1,4 @@
+@import url("./animations.css");
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap");
 @import "tailwindcss";
 
@@ -6,11 +7,13 @@
   --color-primary-light: #00167a;
   --color-secondary-brand: #e33874;
   --color-custom-red: #ff4b4a;
+  --color-custom-gold: #ffcd67;
 }
 
 .background-image {
-  background-image: url("../images/bg-2.gif");
-  background-size: cover;
+  /* background-image: url("../images/bg-2.gif"); */
+  background-image: url("../images/universe-2.gif");
+  /* background-size: cover; */
   background-position: center center;
 }
 

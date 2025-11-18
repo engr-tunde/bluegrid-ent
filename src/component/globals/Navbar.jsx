@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-screen fixed z-50 bg-primary-deep py-3 px-2 lg:px-10 flex justify-between items-center shadow-xl shadow-black/65">
+    <div className="w-screen fixed z-50 bg-primary-deep py-2 lg:py-3 px-2 lg:px-10 flex justify-between items-center shadow-lg shadow-black/35">
       <div className="flex items-center w-full justify-between lg:w-[10%]">
         <Link to="/" className="w-[50px] h-[50px]">
           <img src="/images/logo-white.png" alt="" className="w-full" />
@@ -43,8 +43,8 @@ const Navbar = () => {
       </div>
 
       {open ? (
-        <div className="absolute w-screen h-screen overflow-y-scroll lg:overflow-hidden left-0 top-[80px] bg-[#0e0803ef]">
-          <div className="lg:w-[80%] grid pt-10 lg:ml-[100px] lg:grid-cols-3 gap-10 lg:gap-15">
+        <div className="absolute w-screen h-screen overflow-y-scroll lg:overflow-hidden left-0 top-[60px] bg-[#0e0803ef]">
+          <div className="lg:w-[80%] grid pt-10 lg:ml-[100px] lg:grid-cols-3 gap-10 lg:gap-15 pb-36">
             {navbarData?.map((section, sectionIndex) => (
               <div
                 key={sectionIndex}
@@ -57,7 +57,7 @@ const Navbar = () => {
                   <Link
                     to={item?.url}
                     key={itemIndex}
-                    className="text-white font-bold hover:shadow-gray-50 shadow-lg hover:text-[#e33874] transition ease-in-out duration-500"
+                    className="text-white font-bold hover:shadow-gray-50 shadow-lg hover:text-custom-gold transition ease-in-out duration-500"
                     onClick={handleOpenClose}
                   >
                     {item?.name}

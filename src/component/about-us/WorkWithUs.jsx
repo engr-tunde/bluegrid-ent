@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const WorkWithUs = () => {
   return (
@@ -10,7 +10,7 @@ const WorkWithUs = () => {
       <div className="w-[100%] lg:w-[30%] flex flex-col px-5 gap-10">
         <h1 className="font-bold text-3xl lg:text-5xl">WORK WITH US</h1>
         <span className="text-lg">
-          With offices spanning four continents, Create Music Group is
+          With offices spanning four continents, Bluegrid Entertainment is
           constantly looking for ways to increase reach, expand into new
           markets, and deliver our clients opportunities from around the globe.
         </span>
@@ -23,9 +23,12 @@ const WorkWithUs = () => {
           industry.
         </span>
 
-        <span className="read-more-link uppercase font-bold tracking-widest text-[#008ad3]">
-          See Our Current Opportunities
-        </span>
+        <Link
+          to=""
+          className="read-more-link uppercase font-bold tracking-widest text-custom-gold"
+        >
+          Get started now
+        </Link>
       </div>
 
       <div className="w-[20%]"></div>

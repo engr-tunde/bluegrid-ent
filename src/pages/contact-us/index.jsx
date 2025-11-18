@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect } from "react";
 import AppRadioButton from "../../component/form/AppRadioButton";
 import CustomFormik from "../../component/form/CustomFormik";
 import AppSelectField from "../../component/form/AppSelectField";
@@ -13,6 +13,14 @@ const initialValues = {
 };
 
 const ContactUsPage = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
+
+  const handleContact = (values) => {
+    window.location.href("mailto:info@bluegrident.com");
+  };
+
   return (
     <div className="w-full pt-20 lg:pl-20 text-white">
       <div className="flex flex-row">
@@ -21,39 +29,42 @@ const ContactUsPage = () => {
         </h1>
 
         <div className="flex w-[100%] lg:w-[92%]">
-          <div className="hidden w-[20%] h-[1500px] lg:flex flex-col gap-10 px-3 pt-4">
-            <img src="/images/adekunle.jpg" alt="" className="h-full" />
-            <img src="/images/fireboy.jpg" alt="" className="h-full" />
+          <div className="hidden w-[20%] h-[1000px] lg:flex flex-col gap-10 px-3 pt-4">
+            <img
+              src="/images/lil-wayne-2.webp"
+              alt=""
+              className="h-full object-cover"
+            />
           </div>
 
           <div className="w-[100%] lg:w-[60%] px-4 pt-10 pb-10">
             <CustomFormik
-              onSubmit={(values) => console.log(values)}
+              onSubmit={(values) => handleContact(values)}
               initialValues={initialValues}
             >
               <div className="flex flex-col bg-black rounded-md shadow-2xl p-6 gap-10 border pt-15 pb-30">
                 <h1 className="text-[20px] lg:text-4xl font-bold lg:mb-4">
-                  INTERESTED IN WORKING WITH CREATE MUSIC GROUP?
+                  INTERESTED IN WORKING WITH BLUEGRID ENTERTAINMENT?
                 </h1>
 
                 <span className="lg:mt-4">
                   Thank you for taking the time to share more about you.
                 </span>
 
-                <div className="flex flex-col mt-4 gap-3">
+                <div className="flex flex-col gap-3">
                   <label htmlFor="">
                     Which of the following best describes you?
                   </label>
                   <div className="flex flex-col lg:flex-row gap-3">
-                    <AppRadioButton title="ARTIST" />
-                    <AppRadioButton title="RECORD LABEL" />
-                    <AppRadioButton title="PRODUCER" />
-                    <AppRadioButton title="OTHER" />
+                    <AppRadioButton name="type" title="ARTIST" />
+                    <AppRadioButton name="type" title="RECORD LABEL" />
+                    <AppRadioButton name="type" title="PRODUCER" />
+                    <AppRadioButton name="type" title="OTHER" />
                   </div>
                 </div>
 
-                <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-y-12">
-                  <div className="col-span-1 lg:col-span-2 w-[100%] lg:w-[70%]">
+                <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-y-7">
+                  <div className="col-span-1 lg:col-span-2 w-full lg:w-[95%]">
                     <label className="text-sm">
                       What service(s) are you interested in?
                     </label>
@@ -104,83 +115,6 @@ const ContactUsPage = () => {
                       placeholder="Enter your legal last name"
                     />
                   </div>
-                  <div className="col-span-1 lg:w-[90%]">
-                    <label className=" text-sm">
-                      Date of Birth <span className="text-[#008ad3]">*</span>
-                    </label>
-                    <AppInputField
-                      name="date_of_birth"
-                      type="text"
-                      placeholder="Enter your date of birth"
-                    />
-                  </div>
-
-                  <div className="w-full border-[1px] opacity-20 my-10 lg:col-span-2 col-span-1"></div>
-
-                  <div className="col-span-1 lg:w-[90%]">
-                    <label className=" text-sm">Website</label>
-                    <AppInputField
-                      name="website"
-                      type="text"
-                      placeholder="https://www.yourwebsite.com"
-                    />
-                  </div>
-                  <div className="col-span-1 lg:w-[90%]">
-                    <label className=" text-sm">Spotify Link</label>
-                    <AppInputField
-                      name="spotify"
-                      type="text"
-                      placeholder="https://www.yourspotify.com"
-                    />
-                  </div>
-                  <div className="col-span-1 lg:w-[90%]">
-                    <label className=" text-sm">Youtube Link</label>
-                    <AppInputField
-                      name="youtube"
-                      type="text"
-                      placeholder="https://www.youryoutube.com"
-                    />
-                  </div>
-                  <div className="col-span-1 lg:w-[90%]">
-                    <label className=" text-sm">Apple Music Link</label>
-                    <AppInputField
-                      name="applemusic"
-                      type="text"
-                      placeholder="https://www.yourapplemusic.com"
-                    />
-                  </div>
-                  <div className="col-span-1 lg:w-[90%]">
-                    <label className=" text-sm">Facebook Link</label>
-                    <AppInputField
-                      name="facebook"
-                      type="text"
-                      placeholder="https://www.yourfacebook.com"
-                    />
-                  </div>
-                  <div className="col-span-1 lg:w-[90%]">
-                    <label className=" text-sm">Twitter Link</label>
-                    <AppInputField
-                      name="twitter"
-                      type="text"
-                      placeholder="https://www.yourtwitter.com"
-                    />
-                  </div>
-                  <div className="col-span-1 lg:w-[90%]">
-                    <label className=" text-sm">Instagram Link</label>
-                    <AppInputField
-                      name="instagram"
-                      type="text"
-                      placeholder="https://www.yourinstagram.com"
-                    />
-                  </div>
-                  <div className="col-span-1 lg:w-[90%]">
-                    <label className=" text-sm">Snapchat Link</label>
-                    <AppInputField
-                      name="snapchat"
-                      type="text"
-                      placeholder="https://www.yoursnapchat.com"
-                    />
-                  </div>
 
                   <div className="lg:w-[100%] lg:col-span-2">
                     <label className=" text-sm">Notes</label>
@@ -188,12 +122,14 @@ const ContactUsPage = () => {
                   </div>
                 </div>
 
-                <div className="flex justify-between">
-                  <div>
-                    <span className="text-[#008ad3]">*</span>- required
-                  </div>
-
-                  <AppSubmitButton title="Submit" />
+                <div className="flex justify-end">
+                  {/* <AppSubmitButton title="Submit" /> */}
+                  <a
+                    href="mailto:info@bluegrident.com?subject=Contacting from Bluegrid Entertainment Website"
+                    className={`w-max primary-btn p-2 `}
+                  >
+                    Submit
+                  </a>
                 </div>
               </div>
             </CustomFormik>

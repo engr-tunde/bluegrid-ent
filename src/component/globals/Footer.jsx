@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="w-screen text-white border-t-[1px] border-gray-700">
       <div className="flex flex-col items-center lg:items-start gap-4 lg:gap-10 my-2 lg:mx-20 lg:my-10">
-        <h1 className="font-medium text-2xl">CREATE MUSIC GROUP</h1>
+        {/* <h1 className="font-medium text-2xl">Bluegrid Entertainment</h1> */}
 
         <div className="w-full grid grid-cols-1 gap-4 lg:grid-cols-4">
           <div className="grid mx-auto lg:mx-0 lg:col-span-3 lg:grid  lg:grid-cols-4 gap-10 lg:gap-15">
@@ -31,7 +31,9 @@ const Footer = () => {
             ))}
           </div>
           <div className="flex flex-col items-center lg:items-start gap-5 lg:gap-15 col-span-1">
-            <div className="hidden lg:flex font-medium lg:mb-2 text-[14px]">FOLLOW US</div>
+            <div className="hidden lg:flex font-medium lg:mb-2 text-[14px]">
+              FOLLOW US
+            </div>
             <div className="flex gap-3">
               {footerSocialLinks?.map((social, socialIndex) => (
                 <Link to={social?.url} key={socialIndex}>
@@ -56,7 +58,7 @@ const Footer = () => {
             </Link>
           </div>
           <span className="text-sm">
-            Copyright © 2025 Create Music Group, All rights reserved.
+            Copyright © 2025 Bluegrid Entertainment, All rights reserved.
           </span>
         </div>
       </div>

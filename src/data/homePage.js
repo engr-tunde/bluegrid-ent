@@ -6,7 +6,7 @@ export const createMusicSectionData = [
   {
     title: "Bluegrid Entertainment Music Distribution Company",
     description:
-      "Create Music Group is excited to announce the grand opening of our state-of-the-art recording studio.",
+      "Bluegrid Entertainment is excited to announce the grand opening of our state-of-the-art recording studio.",
     Children: [
       {
         type: "span",
@@ -18,7 +18,7 @@ export const createMusicSectionData = [
   {
     title: "John Doe Releases New Album 'Echoes of Time'",
     description:
-      "Create Music Group is excited to announce the grand opening of our state-of-the-art recording studio.",
+      "Bluegrid Entertainment is excited to announce the grand opening of our state-of-the-art recording studio.",
     Children: [
       {
         type: "span",
@@ -30,7 +30,7 @@ export const createMusicSectionData = [
   {
     title: "CREATE MUSIC ACQUIRES INDIE LABEL 'SOUNDWAVE RECORDS'",
     description:
-      "Create Music Group is excited to announce the grand opening of our state-of-the-art recording studio.",
+      "Bluegrid Entertainment is excited to announce the grand opening of our state-of-the-art recording studio.",
     Children: [
       {
         type: "span",
@@ -42,7 +42,7 @@ export const createMusicSectionData = [
   {
     title: "Bluegrid Entertainment Music Distribution Company",
     description:
-      "Create Music Group is excited to announce the grand opening of our state-of-the-art recording studio.",
+      "Bluegrid Entertainment is excited to announce the grand opening of our state-of-the-art recording studio.",
     Children: [
       {
         type: "span",
@@ -53,9 +53,9 @@ export const createMusicSectionData = [
     ],
   },
   {
-    title: "CREATE MUSIC GROUP RECORDING STUDIO NOW OPEN",
+    title: "Bluegrid Entertainment RECORDING STUDIO NOW OPEN",
     description:
-      "Create Music Group is excited to announce the grand opening of our state-of-the-art recording studio.",
+      "Bluegrid Entertainment is excited to announce the grand opening of our state-of-the-art recording studio.",
     Children: [
       {
         type: "span",
@@ -68,20 +68,20 @@ export const createMusicSectionData = [
 
 export const productServiceImage = [
   {
-    title: "DIGITAL COLLECTION",
-    image: "dig_collection.svg",
-  },
-  {
     title: "MUSIC DISTRIBUTION",
     image: "music_distribution.svg",
   },
   {
-    title: "DATA & ANALYTICS",
-    image: "data_analytics.svg",
+    title: "VIDEO DISTRIBUTION",
+    image: "content_creation.svg",
   },
   {
-    title: "CONTENT CREATION",
-    image: "content_creation.svg",
+    title: "DIGITAL COLLECTION",
+    image: "dig_collection.svg",
+  },
+  {
+    title: "ROYALTY CONTROL",
+    image: "data_analytics.svg",
   },
   {
     title: "CREATIVE SPACE",
@@ -99,18 +99,6 @@ export const productServiceImage = [
     title: "PLAYLIST PROMOTION",
     image: "playlist_promo.svg",
   },
-  {
-    image: "label_engine.svg",
-  },
-  {
-    image: "yoon.svg",
-  },
-  {
-    image: "client_portal.svg",
-  },
-  {
-    image: "flight_house.svg",
-  },
 ];
 
 export const trustedByArtistImageOld = [
@@ -126,13 +114,13 @@ export const trustedByArtistImageThreeOld = [
 ];
 
 export const trustedByArtistImage = [
-  "fela-2.webp",
   "lil-wayne-2.webp",
+  "wizkid-2.jpeg",
   "jay-z-2.jpg",
 ];
 export const trustedByArtistImageTwo = [
   "drake-2.jpg",
-  "wizkid-2.jpeg",
+  "matti.jpg",
   "nicki-minaj-2.jpg",
 ];
 
@@ -158,4 +146,46 @@ export const totalTrustedArtistImage = [
   "fela.jpg",
   "wiz-temz.jpg",
   "kidjo.jpg",
+];
+
+export const supportedStores = [
+  "spotify.png",
+  "7-digital.png",
+  "itunes.png",
+  "amazon.png",
+  "soundcloud.png",
+  "apple.png",
+  "shazam.png",
+  "youtube.jpg",
+  "audible-magic.png",
+  "anghami.png",
+  "boomplay.png",
+  "tiktok.png",
+  "deezer.png",
+  "facebook.png",
+  "gracenote.png",
+  "iheart.png",
+  "imi-mobile.png",
+  "twitch.png",
+  "tidal.png",
+  "jaxta.png",
+  "jiosaavn.png",
+  "joox.png",
+  "pandora.png",
+  "awa.jpg",
+  "claro-musica.png",
+  "juno-download.png",
+  "kanjian.png",
+  "kdigital.png",
+  "kkbox.png",
+  "mixcloud.png",
+  "monkingme.png",
+  "netease.png",
+  "resso.avif",
+  "rhapsody.png",
+  "sber-svuk.png",
+  "tencent.png",
+  "traxsource.png",
+  "uma.png",
+  "yandex.png",
 ];

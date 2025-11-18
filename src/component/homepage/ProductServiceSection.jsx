@@ -11,7 +11,7 @@ const ProductServiceSection = () => {
       <div className="w-[85%] pt-20 lg:pt-60 flex flex-col lg:flex-row">
         <div className="w-full lg:w-[20%] px-4">
           <img
-            src="/images/burnaboy.jpg"
+            src="/images/fela.jpg"
             alt=""
             className="h-[350px] lg:h-full w-full object-cover rounded-xl shadow-lg"
           />
@@ -22,11 +22,11 @@ const ProductServiceSection = () => {
               WHAT WE DO
             </h1>
             <span className="text-[16px] lg:text-lg">
-              We provide best-in-class technology for our artists and labels,
-              helping them succeed in the changing digital landscape. Our suite
-              of tools and services covers distribution, publishing, sync
-              licensing, digital rights management, A&R and marketing, and
-              recording services.
+              We give you a stress-free medium to deliver, manage and promote
+              your music and video catalog as an independent artist or a record
+              label to scale up your groth in the music sphere. With
+              state-of-the-art user dashboard, we optimize your digital music
+              distrubution across the global digital music stores.
             </span>
 
             {/* mobile view */}
@@ -39,11 +39,11 @@ const ProductServiceSection = () => {
               </span>
             </Link>
           </div>
-          <div className="w-full lg:hidden lg:col-span-2 grid grid-cols-2 lg:grid-cols-4 items-center justify-items-center-safe lg:gap-0">
+          <div className="w-full lg:hidden lg:col-span-2 grid grid-cols-2 lg:grid-cols-4 items-center justify-center-safe lg:gap-0">
             {productServiceImage.map((item, index) => (
               <div key={index} className="px-3">
                 {item?.title ? (
-                  <div className="flex items-center justify-items-center flex-col">
+                  <div className="flex items-center justify-center flex-col">
                     <img
                       src={`/images/${item.image}`}
                       alt={item?.alt || "product-service"}
@@ -60,19 +60,19 @@ const ProductServiceSection = () => {
 
           <div className="px-2 flex flex-col gap-4">
             <h1 className="text-[20px] lg:mt-0 lg:text-3xl font-bold">
-              INNOVATION MEETS MUSIC
+              BRIDGING MUSIC WITH TECH INNOVATION
             </h1>
             <span className="text-[16px] lg:text-lg">
-              We maximize opportunities to monetize content across all
-              platforms, provide access to proprietary technology that allows
-              you to track earnings in real-time — all without compromising
-              ownership or creativity.
+              We take advantage of technology prowess to maximize opportunities
+              to monetize content across all digital platforms. Your catalog is
+              easily sunchronized across all stores, and your earnings entirely
+              managed by you in real time. No mor working in vain!
             </span>
-            <div className="w-full lg:hidden lg:col-span-2 grid grid-cols-2 lg:grid-cols-4 items-center justify-items-center-safe lg:gap-0">
+            <div className="w-full lg:hidden lg:col-span-2 grid grid-cols-2 lg:grid-cols-4 items-center justify-center-safe lg:gap-0">
               {productServiceImage.map((item, index) => (
                 <div key={index} className="px-3">
                   {!item?.title && (
-                    <div className="flex items-center justify-items-center flex-col">
+                    <div className="flex items-center justify-center flex-col">
                       <img
                         src={`/images/${item.image}`}
                         alt={item?.alt || "product-service"}
@@ -84,7 +84,7 @@ const ProductServiceSection = () => {
               ))}
             </div>
           </div>
-          <div className="hidden w-full lg:col-span-2 lg:grid grid-cols-2 lg:grid-cols-4 gap-y-15 items-center justify-items-center-safe">
+          <div className="hidden w-full lg:col-span-2 lg:grid grid-cols-2 lg:grid-cols-4 gap-y-15 items-center justify-center-safe">
             {productServiceImage.map((item, index) => (
               <div key={index} className="px-2">
                 {item?.title ? (
@@ -108,14 +108,14 @@ const ProductServiceSection = () => {
           </div>
         </div>
 
-        <Link
+        {/* <Link
           to="/"
           className="hidden lg:w-[15%] lg:flex lg:items-center lg:mx-auto text-[#008ad3] font-semibold opacity-90 hover:opacity-100"
         >
           <span className="read-more-link text-[20px] text-[#008ad3] font-semibold opacity-90 hover:opacity-100">
             OUR SERVICES
           </span>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
