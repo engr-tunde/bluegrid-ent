@@ -114,26 +114,29 @@ export const trustedByArtistImageThreeOld = [
 ];
 
 export const trustedByArtistImage = [
-  "lil-wayne-2.webp",
-  "wizkid-2.jpeg",
+  "lil-waye-3.jpg",
+  "kendrick.jpg",
   "jay-z-2.jpg",
 ];
 export const trustedByArtistImageTwo = [
   "drake-2.jpg",
   "matti.jpg",
-  "nicki-minaj-2.jpg",
+  "cardi-b-2.jpg",
 ];
 
 export const trustedByArtistImageThree = [
-  "burna-2.webp",
-  "cardi-b-2.jpg",
-  "asake-2.webp",
+  "bad-bunny.jpg",
+  "nicki-minaj-2.jpg",
+  "davido-2.webp",
+  // "burna-2.webp",
 ];
 
 export const trustedByArtistImageFour = [
-  "davido-2.webp",
-  "tems-2.jpg",
-  "rema-2.webp",
+  // "davido-2.webp",
+
+  "wizkid-2.jpeg",
+  "taylor-swift.webp",
+  "lucky-dube.jpeg",
 ];
 
 export const totalTrustedArtistImage = [

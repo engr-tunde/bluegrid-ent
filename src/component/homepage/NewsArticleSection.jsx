@@ -13,7 +13,8 @@ const NewsArticleSection = () => {
         <div className="w-full lg:w-[75%] pt-20 lg:pt-60 grid grid-cols-1 lg:grid-cols-3 gap-y-12 lg:gap-x-5 px-4">
           <div className="col-span-2">
             <img
-              src="/images/burnaboy-3.webp"
+              // src="/images/burnaboy-3.webp"
+              src="/images/burna-2.webp"
               alt=""
               className="shadow-md shadow-white rounded-lg"
             />

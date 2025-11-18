@@ -1,8 +1,11 @@
-import React from "react";
 import { footerData, footerSocialLinks } from "../../data/footerData";
 import { Link } from "react-router-dom";
+import { FaArrowUp } from "react-icons/fa";
 
 const Footer = () => {
+  const handleScroll = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
   return (
     <div className="w-screen text-white border-t-[1px] border-gray-700">
       <div className="flex flex-col items-center lg:items-start gap-4 lg:gap-10 my-2 lg:mx-20 lg:my-10">
@@ -61,6 +64,13 @@ const Footer = () => {
             Copyright © 2025 Bluegrid Entertainment, All rights reserved.
           </span>
         </div>
+
+        {/* <div
+          onClick={handleScroll}
+          className="fixed bottom-10 right-5 h-10 w-10 bg-white rounded-full flex justify-center items-center cursor-pointer"
+        >
+          <FaArrowUp size={25} className="text-primary-deep" />
+        </div> */}
       </div>
     </div>
   );

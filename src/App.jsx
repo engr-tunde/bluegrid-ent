@@ -7,6 +7,7 @@ import { ToastContainer } from "react-toastify";
 import AboutUsPage from "./pages/about-us";
 import ServicePage from "./pages/service";
 import ContactUsPage from "./pages/contact-us";
+import ScrollToTop from "./component/globals/ScrollToTop";
 function App() {
   return (
     <>
@@ -23,14 +24,16 @@ function App() {
       />
 
       <BrowserRouter>
-        <Routes>
-          <Route element={<HomePageLayout />}>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/about-us" element={<AboutUsPage />} />
-            <Route path="/service" element={<ServicePage />} />
-            <Route path="/contact-us" element={<ContactUsPage />} />
-          </Route>
-        </Routes>
+        <ScrollToTop>
+          <Routes>
+            <Route element={<HomePageLayout />}>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/about-us" element={<AboutUsPage />} />
+              <Route path="/service" element={<ServicePage />} />
+              <Route path="/contact-us" element={<ContactUsPage />} />
+            </Route>
+          </Routes>
+        </ScrollToTop>
       </BrowserRouter>
     </>
   );

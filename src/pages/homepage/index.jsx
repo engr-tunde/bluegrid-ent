@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import CreateMusicSection from "../../component/homepage/CreateMusicSection";
 import ProductServiceSection from "../../component/homepage/ProductServiceSection";
 import NewsArticleSection from "../../component/homepage/NewsArticleSection";
 import TrustedByArtist from "../../component/homepage/TrustedByArtist";
+import HomeHeroSection from "../../component/homepage/HomeHeroSection";
 
 const HomePage = () => {
   useEffect(() => {
@@ -11,7 +11,7 @@ const HomePage = () => {
 
   return (
     <div className="w-full ">
-      <CreateMusicSection />
+      <HomeHeroSection />
       <div className="w-full lg:pl-20">
         <ProductServiceSection />
         <TrustedByArtist />

@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 import {
   createMusicSectionData,
   image,
@@ -10,7 +9,7 @@ import { BiLabel } from "react-icons/bi";
 import { GiMusicalNotes } from "react-icons/gi";
 import { CiVideoOn } from "react-icons/ci";
 
-const CreateMusicSection = () => {
+const HomeHeroSection = () => {
   const [current, setCurrent] = useState(0);
   const totalSlides = image.length;
 
@@ -91,7 +90,7 @@ const CreateMusicSection = () => {
               <video
                 autoPlay
                 loop
-                // muted
+                muted
                 playsInline
                 className="w-full h-full rounded-full"
                 src="/videos/bluegrid-vid-1.mp4"
@@ -207,9 +206,9 @@ const CreateMusicSection = () => {
           </div>
         </marquee>
       </div>
-      <div className="md:hidden w-full bg-white py-10 px-5">
-        <div className="w-full grid grid-cols-6 md:grid-cols-6 grid-flow-dense gap-3 py-1">
-          {supportedStores?.slice(0, 36)?.map((item, i) => (
+      <div className="md:hidden w-full bg-white py-20 px-5">
+        <div className="w-full grid grid-cols-6 md:grid-cols-8 grid-flow-dense gap-3 py-1">
+          {supportedStores?.map((item, i) => (
             <div
               className="col-span-1 h-[50px] flex justify-center items-center"
               key={i}
@@ -228,4 +227,4 @@ const CreateMusicSection = () => {
   );
 };
 
-export default CreateMusicSection;
+export default HomeHeroSection;
