@@ -18,7 +18,6 @@ export const navbarData = [
   {
     title: "SERVICES",
     Children: [
-      { name: "Our Services", url: "/about" },
       { name: "Music Distribution", url: "" },
       { name: "Video Distribution", url: "" },
       { name: "Royalty Management", url: "" },
