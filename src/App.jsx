@@ -8,6 +8,9 @@ import AboutUsPage from "./pages/about-us";
 import ServicePage from "./pages/service";
 import ContactUsPage from "./pages/contact-us";
 import ScrollToTop from "./component/globals/ScrollToTop";
+import MusicDistPage from "./pages/service/music-distribution";
+import VideoDistPage from "./pages/service/video-distribution";
+import RoyaltyServicePage from "./pages/service/royalty-management";
 function App() {
   return (
     <>
@@ -31,6 +34,9 @@ function App() {
               <Route path="/about-us" element={<AboutUsPage />} />
               <Route path="/service" element={<ServicePage />} />
               <Route path="/contact-us" element={<ContactUsPage />} />
+              <Route path="/music-distribution" element={<MusicDistPage/>} />
+              <Route path="/video-distribution" element={<VideoDistPage/>} />
+              <Route path="/royalty-management" element={<RoyaltyServicePage/>} />
             </Route>
           </Routes>
         </ScrollToTop>

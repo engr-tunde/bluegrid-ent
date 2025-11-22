@@ -18,9 +18,9 @@ export const navbarData = [
   {
     title: "SERVICES",
     Children: [
-      { name: "Music Distribution", url: "" },
-      { name: "Video Distribution", url: "" },
-      { name: "Royalty Management", url: "" },
+      { name: "Music Distribution", url: "/music-distribution" },
+      { name: "Video Distribution", url: "/video-distribution" },
+      { name: "Royalty Management", url: "/royalty-management" },
     ],
   },
 ];
